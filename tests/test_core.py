@@ -1,4 +1,4 @@
-from tdk import TurkishWord
+from tdk.core import TurkishWord
 from tdk.exceptions import WordNotFoundException
 
 try:
