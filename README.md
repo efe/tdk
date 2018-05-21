@@ -5,20 +5,32 @@
 [![codecov](https://codecov.io/gh/efe/tdk/branch/master/graph/badge.svg)](https://codecov.io/gh/efe/tdk)
 [![License](https://img.shields.io/pypi/l/tdk.svg)](https://pypi.org/project/tdk/)
 
+A library to query meaning of Turkish word from official dictionary.
 
 
-A command line tool to query meaning of Turkish word from official dictionary.
-
-
-Installation:
+## Install
 ```
-$ pip3 install tdk
+$ pip install tdk
 ```
     
+## Requirements
+Python +3.4
 
+## Documentation 
 
-Usage:
+### Command Line
 ```
 $ tdk efe
 a. 1. Yiğit, özellikle Batı Anadolu köy yiğidi, zeybek. 2. Ağabey. 3. Kabadayı: Düğünevinin avlusuna girerken yeni düze inmiş efeler gibi nara attı. -Ö. Seyfettin. 4. tar. Kaptan.
+```
+
+### Library
+```python
+from tdk.core import TurkishWord
+
+word = TurkishWord('Atatürk')
+word.query()
+result = word.meaning
+
+"Cinsiyet: Erkek1. Türklerin atası. 2. Büyük kurtarıcı Gazi Mustafa Kemal Paşa'ya 1934 yılında yasayla verilmiş soyadı."
 ```
