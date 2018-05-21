@@ -1,4 +1,3 @@
-import sys
 import click
 
 from tdk.core import TurkishWord
