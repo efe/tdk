@@ -4,5 +4,4 @@ env:
   - TOXENV=py35
   - TOXENV=py36
 install: pip install tox
-         pip install -r requirements.txt
 script: tox
