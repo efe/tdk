@@ -1,7 +1,7 @@
 import sys
 import click
 
-from tdk import TurkishWord
+from tdk.core import TurkishWord
 
 
 @click.command()

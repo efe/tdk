@@ -1,5 +1,6 @@
 language: python
-env:
-  - TOXENV=py34
-install: pip install tox
-script: tox
+python:
+  - "3.6"
+
+script:
+- "python setup.py test"
