@@ -32,5 +32,6 @@ word = TurkishWord('Atatürk')
 word.query()
 result = word.meaning
 
+print(result)
 "Cinsiyet: Erkek1. Türklerin atası. 2. Büyük kurtarıcı Gazi Mustafa Kemal Paşa'ya 1934 yılında yasayla verilmiş soyadı."
 ```
