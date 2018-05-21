@@ -1,4 +1,0 @@
-[
-  "tests/test_core.py::CoreTests::test_invalid_word",
-  "tests/test_core.py::CoreTests::test_query_meaining"
-]
