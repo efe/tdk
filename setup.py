@@ -99,7 +99,7 @@ setup(
     # py_modules=['mypackage'],
     entry_points={
         'console_scripts': [
-            'tdk=tdk:cli:run',
+            'tdk=tdk.cli:run',
         ],
     },
     install_requires=REQUIRED,

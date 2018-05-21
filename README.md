@@ -1,3 +1,11 @@
+# tdk
+
+[![PyPI version](https://img.shields.io/pypi/v/tdk.svg)](https://pypi.org/project/tdk/)
+[![codecov](https://codecov.io/gh/efe/tdk/branch/master/graph/badge.svg)](https://codecov.io/gh/efe/tdk)
+[![License](https://img.shields.io/pypi/l/tdk.svg)](https://pypi.org/project/tdk/)
+
+
+
 A command line tool to query meaning of Turkish word from official dictionary.
 
 
