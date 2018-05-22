@@ -19,7 +19,7 @@ Python +3.4
 ## Documentation 
 
 ### Command Line
-```
+```console
 $ tdk efe
 a. 1. Yiğit, özellikle Batı Anadolu köy yiğidi, zeybek. 2. Ağabey. 3. Kabadayı: Düğünevinin avlusuna girerken yeni düze inmiş efeler gibi nara attı. -Ö. Seyfettin. 4. tar. Kaptan.
 ```
